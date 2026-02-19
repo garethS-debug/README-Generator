@@ -3,8 +3,9 @@ from rich.console import Console
 from rich.table import Table
 from rich.progress import Progress
 from qtoask import question
+import time
 
-# console = Console()
+console = Console()
 answers = prompt(question())
 content = f"""
             #{answers['title']}
@@ -15,11 +16,21 @@ content = f"""
             # Usage
             # {answers['usage']}
             # Licence
-            # 
+            # {answers['licence']}
             # Author Name
-            #
+            # {answers['author']}
             # Contact Information
+            # {answers['contact']}
             """
+
+with Progress() as progress:
+    task = progress.add_task("Processing...", total=100)
+    for _ in range(10):
+        time.sleep(0.3)
+        progress.update(task, advance=10)
+        
+console.print("[bold green]Task Complete![/bold green] ✅")
+
 
 
 
