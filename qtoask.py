@@ -6,5 +6,8 @@ def question():
         {"type": "input", "name": "installation", "message": "What is the instructions?"},
         {"type": "input", "name": "usage", "message": "What is the Usage Information?"},
         {"type": "list", "name": "licence", "message": "Choose Licenece?", "choices": 
-         ["MIT", "Apache-2.0", "GPL-3.0", "None"],}
+         ["MIT", "Apache-2.0", "GPL-3.0", "None"],},
+        {"type": "input", "name": "author", "message": "What is the author name?"},
+        {"type": "input", "name": "contact", "message": "What is the contact info?"},
+        
     ]
