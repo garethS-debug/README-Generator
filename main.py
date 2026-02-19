@@ -29,10 +29,11 @@ with Progress() as progress:
         time.sleep(0.3)
         progress.update(task, advance=10)
         
+
+with open ("README.md", "w") as readme:
+    readme.write(content)
+
 console.print("[bold green]Task Complete![/bold green] ✅")
-
-
-
 
 # # Display a formatted message with Rich
 # console.print(
