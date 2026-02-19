@@ -9,18 +9,19 @@ console = Console()
 answers = prompt(question())
 content = f"""
             #{answers['title']}
-            # Description
-            # {answers['description']}
-            # Installation
-            # {answers['installation']}
-            # Usage
-            # {answers['usage']}
-            # Licence
-            # {answers['licence']}
-            # Author Name
-            # {answers['author']}
-            # Contact Information
-            # {answers['contact']}
+            
+            ## Description
+            {answers['description']}
+            ## Installation
+            {answers['installation']}
+            ## Usage
+            {answers['usage']}
+            ## Licence
+            {answers['licence']}
+            ## Author Name
+            {answers['author']}
+            ## Contact Information
+            {answers['contact']}
             """
 
 with Progress() as progress:
