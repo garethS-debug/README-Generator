@@ -10,6 +10,15 @@ content = f"""
             #{answers['title']}
             # Description
             # {answers['description']}
+            # Installation
+            # {answers['installation']}
+            # Usage
+            # {answers['usage']}
+            # Licence
+            # 
+            # Author Name
+            #
+            # Contact Information
             """
 
 
