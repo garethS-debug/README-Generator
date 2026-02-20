@@ -1,4 +1,4 @@
-from PyInquirer import prompt
+from InquirerPy import prompt
 from rich.console import Console
 from rich.table import Table
 from rich.progress import Progress
@@ -8,12 +8,12 @@ import time
 console = Console()
 # answers = prompt(question())
 
-class App:
-    def run(self):
-        answers = prompt(Questions.question())
+
+
+answers = prompt(Questions.question())
         
 
-        content = f"""
+content = f"""
 #{answers['title']}
             
 ## Description
@@ -42,8 +42,6 @@ with open ("README.md", "w") as readme:
 
 console.print("[bold green]Task Complete![/bold green] ✅")
 
-if __name__ =="__main__":
-    App().run()
 # # Display a formatted message with Rich
 # console.print(
 #     f"Hello, [bold {answers['title']}] {answers['description']}![/bold {answers['description']}]"
