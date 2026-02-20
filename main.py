@@ -27,7 +27,7 @@ content = f"""
 with Progress() as progress:
     task = progress.add_task("Processing...", total=100)
     for _ in range(10):
-        time.sleep(0.3)
+        time.sleep(0.15)
         progress.update(task, advance=10)
         
 
