@@ -1,15 +1,18 @@
 
-#eggt
+#Readme Generator
             
 ## Description
-seg
+This is a readme generator. When you enter the details of the project in the terminal it will generate a readme file. 
+
 ## Installation
-seg
+use pip install requirement.txt
 ## Usage
-se
+Use the following commands:
+readme\Scripts\activate - to activate the venv
+python main.py to run the generator
 ## Licence
 MIT
 ## Author Name
-g
+Gareth Swarte
 ## Contact Information
-esg
+garethjswarte@gmail.com
