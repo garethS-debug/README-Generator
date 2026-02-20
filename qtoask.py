@@ -1,6 +1,9 @@
-def question():
+
+class Questions:
+
+    def question():
     # get user inputs
-    return [
+        return [
         {"type": "input", "name": "title", "message": "What is your project title?", "validate": lambda result: len(result) > 0,
             "invalid_message": "Input cannot be empty.",},
         {"type": "input", "name": "description", "message": "What is the description?", "validate": lambda result: len(result) > 0,
