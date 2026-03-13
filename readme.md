@@ -1,15 +1,18 @@
 
-#Readme Generator
+#GitHub Projects Portfolio
             
 ## Description
-This is a readme generator. When you enter the details of the project in the terminal it will generate a readme file. 
-
+Summary: A responsive React + Vite portfolio that fetches and showcases my GitHub repositories and projects with animated UI elements, project cards, and a rotating headline component.
+Tech: Built with React, Vite, CSS modules; uses the GitHub API for repo data and includes lightweight animations and accessibility-minded layout.
 ## Installation
-use pip install requirement.txt
+Prereqs: Node.js (16+ recommended) and npm.
+Steps:
+Install dependencies: npm install
+Start dev server: npm run dev
+Build for production: npm run build
+Preview production build locally: npm run preview
 ## Usage
-Use the following commands:
-readme\Scripts\activate - to activate the venv
-python main.py to run the generator
+Dev: Run npm run dev and open the provided local URL (commonly http://localhost:5173).
 ## Licence
 MIT
 ## Author Name
